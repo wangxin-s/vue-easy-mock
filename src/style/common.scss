@@ -1,0 +1,18 @@
+@import './setting.scss';
+
+body{
+    width:100vw;
+    height:100vh;
+    margin:0;
+    padding:0;
+    font-size:$rootFontSize;
+    overflow-x:hidden;
+}
+
+div,header,footer,section{
+    box-sizing: border-box;
+}
+
+.page{
+    @include setPadding();
+}
